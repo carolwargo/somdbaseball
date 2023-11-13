@@ -5,21 +5,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Home from "./views/Home";
 import About from "./views/About";
-import Header from "./components/Header";
-import "./App.css";
-/*import Contact from "./views/Contact/Contact";
-import WebDesign from "./views/WebDesign/WebDesign";
-import GraphicDesign from "./views/GraphicDesign/GraphicDesign";
-import SoftwareDevelopment from "./views/SoftwareDevelopment/SoftwareDevelopment";
-import DigitalMarketing from "./views/DigitalMarketing/DigitalMarketing"; 
-import Ecommerce from "./views/Ecommerce/Ecommerce";  
-import Footer from "./components/Footer/index";
-import Navbar from "./components/Navbar/index";
-import Signup from "./views/Signup/Signup";
-import Login from "./views/Login/Login";
-import "bootstrap/dist/css/bootstrap.css";*/
-// Put any other imports below so that CSS from your
-// components takes precedence over default styles.
+import Header from "./components/Header/Header";
+import PlayersDrafted from "./views/Success/PlayersDrafted";
+
+
+
 
 /*const client = new ApolloClient({
   uri: "/graphql",
@@ -34,6 +24,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
+          <Route path="/players-drafted" element={<PlayersDrafted/>} />
+          
         </Routes>
       </BrowserRouter>
     </div>
