@@ -9,19 +9,23 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 
-import Gavin from '../../assets/Gavin.jpg'
-import Brett from '../../assets/Brett.jpg'
-import JohnM from '../../assets/JohnM.jpg'
-import SteveClevenger from '../../assets/SteveClevenger.avif'
-import Kenard from '../../assets/Kenard.jpg'
-import BrandonErbe from '../../assets/BrandonErbe.jpg'
-import ChrisArcher from '../../assets/ChrisArcher.jpg'
-import JeffBaker from '../../assets/JeffBaker.jpg'
-import JoshB from '../../assets/JoshB.jpg'
-import JeffPal from '../../assets/JeffPal.png'
-import NickA from '../../assets/NickA.jpg'  
-import JohnPoss from '../../assets/JohnPoss.jpeg'
-import BobbySt from '../../assets/BobbySt.jpg'
+import Gavin from '../../assets/images/Gavin.png'
+import Brett from '../../assets/images/Brett.png'
+import John from '../../assets/images/John.png'
+import Steve from '../../assets/images/Steve.png'
+import Kenard from '../../assets/images/Kenard.png'
+import Brandon from '../../assets/images/Brandon.png'
+import Chris from '../../assets/images/Chris.png'
+import Jeff from '../../assets/images/Jeff.png'
+import Josh from '../../assets/images/Josh.png'
+import JeffPal from '../../assets/images/JeffPal.png'
+import NickA from '../../assets/images/NickA.png'  
+import Johnny from '../../assets/images/Johnny.png'
+import BobbySt from '../../assets/images/BobbySt.png'
+import Guy from '../../assets/images/Guy.png'
+import Ryan from '../../assets/images/Ryan.png'
+
+
 export default function TopDrafted() {
   return (
     <div className='top-drafted p-4'>
@@ -55,12 +59,10 @@ export default function TopDrafted() {
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
-  </MDBRow>
-    <MDBRow >
-      <MDBCol className='flex-col p-2'>
+    <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src={JohnM} 
+            src={John} 
             alt='john-mccurdy'
             position='top'
           />
@@ -72,10 +74,14 @@ export default function TopDrafted() {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-      <MDBCol className='flex-col p-2'>
+  </MDBRow>
+   
+
+    <MDBRow >
+    <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src={SteveClevenger} 
+            src={Steve} 
             alt='steve-clevenger'
             position='top'
           />
@@ -85,9 +91,6 @@ export default function TopDrafted() {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-    </MDBRow>
-
-    <MDBRow >
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
@@ -106,7 +109,7 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src={BrandonErbe}
+            src={Brandon}
             alt='brandon-erbe'
             position='top'
           />
@@ -122,7 +125,7 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src={ChrisArcher}
+            src={Chris}
             alt='chris-archer'
             position='top'
           />
@@ -137,7 +140,7 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src={JeffBaker}
+            src={Jeff}
             alt='jeff-baker'
             position='top'
           />
@@ -147,13 +150,10 @@ export default function TopDrafted() {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-    </MDBRow>
-
-    <MDBRow >
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src={JoshB}
+            src={Josh}
             alt='...'
             position='top'
           />
@@ -165,20 +165,8 @@ export default function TopDrafted() {
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-      <MDBCol className='flex-col p-2'>
-         <MDBCard className='h-100 top-drafted-card'>
-          <MDBCardImage
-            src={JeffPal}
-            alt='...'
-            position='top'
-          />
-          <MDBCardBody>
-            <MDBCardTitle>Jeff Palumbo</MDBCardTitle>
-            <MDBCardText>15th Round- Assistant Head Coach ECU</MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </MDBCol>
     </MDBRow>
+
     <MDBRow>
     <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
@@ -196,9 +184,22 @@ export default function TopDrafted() {
       </MDBCard>
     </MDBCol>
     <MDBCol className='flex-col p-2'>
+         <MDBCard className='h-100 top-drafted-card'>
+          <MDBCardImage
+            src={JeffPal}
+            alt='...'
+            position='top'
+          />
+          <MDBCardBody>
+            <MDBCardTitle>Jeff Palumbo</MDBCardTitle>
+            <MDBCardText>15th Round- Assistant Head Coach ECU</MDBCardText>
+          </MDBCardBody>
+        </MDBCard>
+      </MDBCol>
+    <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
         <MDBCardImage
-          src={JohnPoss}
+          src={Johnny}
           alt='john-poss'
           position='top'
         />
@@ -209,6 +210,7 @@ export default function TopDrafted() {
       </MDBCard>
     </MDBCol>
   </MDBRow>
+
   <MDBRow>
     <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
@@ -229,7 +231,7 @@ export default function TopDrafted() {
     <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
         <MDBCardImage
-          src='https://mdbootstrap.com/img/new/standard/city/042.webp'
+          src={Guy}
           alt='...'
           position='top'
         />
@@ -239,7 +241,21 @@ export default function TopDrafted() {
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
+    <MDBCol className='flex-col p-2'>
+       <MDBCard className='h-100 top-drafted-card'>
+        <MDBCardImage
+          src={Ryan}
+          alt='ryan-terrill'
+          position='top'
+        />
+        <MDBCardBody>
+          <MDBCardTitle>Ryan Terrill</MDBCardTitle>
+          <MDBCardText> George Mason- Asstitant Coach/Recruiting Coordinator</MDBCardText>
+        </MDBCardBody>
+      </MDBCard>
+    </MDBCol>
   </MDBRow>
+  
     </div>
   );
 }
