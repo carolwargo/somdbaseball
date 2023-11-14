@@ -359,13 +359,6 @@ export default function PlayersDrafted() {
           </tr>
 
           <tr>
-            <th scope="row">48</th>
-            <td>Robby Jacobsen</td>
-            <td>Washington Nationals</td>
-            <td>22nd Round</td>
-          </tr>
-
-          <tr>
             <th scope="row">49</th>
             <td>Robby Jacobsen</td>
             <td>Washington Nationals</td>

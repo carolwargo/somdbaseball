@@ -12,7 +12,16 @@ import {
 import Gavin from '../../assets/Gavin.jpg'
 import Brett from '../../assets/Brett.jpg'
 import JohnM from '../../assets/JohnM.jpg'
-
+import SteveClevenger from '../../assets/SteveClevenger.avif'
+import Kenard from '../../assets/Kenard.jpg'
+import BrandonErbe from '../../assets/BrandonErbe.jpg'
+import ChrisArcher from '../../assets/ChrisArcher.jpg'
+import JeffBaker from '../../assets/JeffBaker.jpg'
+import JoshB from '../../assets/JoshB.jpg'
+import JeffPal from '../../assets/JeffPal.png'
+import NickA from '../../assets/NickA.jpg'  
+import JohnPoss from '../../assets/JohnPoss.jpeg'
+import BobbySt from '../../assets/BobbySt.jpg'
 export default function TopDrafted() {
   return (
     <div className='top-drafted p-4'>
@@ -58,7 +67,7 @@ export default function TopDrafted() {
           <MDBCardBody>
             <MDBCardTitle>John McCurdy</MDBCardTitle>
             <MDBCardText>
-            2nd Round- Detroit Tigers
+            1st Round- Oakland Athletics
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
@@ -66,13 +75,13 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-            alt='...'
+            src={SteveClevenger} 
+            alt='steve-clevenger'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Sean Black</MDBCardTitle>
-            <MDBCardText>2nd Round- Washington Nationals</MDBCardText>
+            <MDBCardTitle>Steve Clevenger</MDBCardTitle>
+            <MDBCardText>7th Round- Chicago Cubs</MDBCardText>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -82,14 +91,14 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+            src={Kenard} 
             alt='...'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Matt Coenen</MDBCardTitle>
+            <MDBCardTitle>Kenard Jones</MDBCardTitle>
             <MDBCardText>
-            2nd Round- Detroit Tigers
+            3rd Round- San Diego Padres
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
@@ -97,13 +106,13 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-            alt='...'
+            src={BrandonErbe}
+            alt='brandon-erbe'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Sean Black</MDBCardTitle>
-            <MDBCardText>2nd Round- Washington Nationals</MDBCardText>
+            <MDBCardTitle>Brandon Erbe</MDBCardTitle>
+            <MDBCardText>3rd Round- Baltimore Orioles</MDBCardText>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -113,14 +122,14 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-            alt='...'
+            src={ChrisArcher}
+            alt='chris-archer'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Matt Coenen</MDBCardTitle>
+            <MDBCardTitle>Chris Archer</MDBCardTitle>
             <MDBCardText>
-            2nd Round- Detroit Tigers
+            5th Round- Cleveland Indians
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
@@ -128,13 +137,13 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-            alt='...'
+            src={JeffBaker}
+            alt='jeff-baker'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Sean Black</MDBCardTitle>
-            <MDBCardText>2nd Round- Washington Nationals</MDBCardText>
+            <MDBCardTitle>Jeff Baker</MDBCardTitle>
+            <MDBCardText>4th Round- Colorado Rockies</MDBCardText>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -144,14 +153,14 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+            src={JoshB}
             alt='...'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Matt Coenen</MDBCardTitle>
+            <MDBCardTitle>Josh Banks</MDBCardTitle>
             <MDBCardText>
-            2nd Round- Detroit Tigers
+            2nd Round- Toronto Blue Jays
             </MDBCardText>
           </MDBCardBody>
         </MDBCard>
@@ -159,13 +168,13 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/042.webp'
+            src={JeffPal}
             alt='...'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Sean Black</MDBCardTitle>
-            <MDBCardText>2nd Round- Washington Nationals</MDBCardText>
+            <MDBCardTitle>Jeff Palumbo</MDBCardTitle>
+            <MDBCardText>15th Round- Assistant Head Coach ECU</MDBCardText>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
@@ -174,14 +183,14 @@ export default function TopDrafted() {
     <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
         <MDBCardImage
-          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-          alt='...'
+          src={NickA}
+          alt='nick-adenhart'
           position='top'
         />
         <MDBCardBody>
-          <MDBCardTitle>Brett Cecil</MDBCardTitle>
+          <MDBCardTitle>Nick Adenhart</MDBCardTitle>
           <MDBCardText>
-            1st Round- Toronto Blue Jays
+            14th Round- Anaheim Angels
           </MDBCardText>
         </MDBCardBody>
       </MDBCard>
@@ -189,13 +198,13 @@ export default function TopDrafted() {
     <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
         <MDBCardImage
-          src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-          alt='...'
+          src={JohnPoss}
+          alt='john-poss'
           position='top'
         />
         <MDBCardBody>
-          <MDBCardTitle>Gavin Floyd</MDBCardTitle>
-          <MDBCardText> 1st Round- Philadelphia Phillies</MDBCardText>
+          <MDBCardTitle>Johnny Poss</MDBCardTitle>
+          <MDBCardText> Baltimore Orioles- Assistant Coach UMD</MDBCardText>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
@@ -204,14 +213,15 @@ export default function TopDrafted() {
     <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
         <MDBCardImage
-          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-          alt='...'
+          src={BobbySt}
+          alt='bobby-stpierre'
           position='top'
         />
         <MDBCardBody>
-          <MDBCardTitle>Brett Cecil</MDBCardTitle>
+          <MDBCardTitle>Bobby St. Pierre</MDBCardTitle>
           <MDBCardText>
-            1st Round- Toronto Blue Jays
+          Scouting Supervisor-Houston Astros
+            Pitching Analysis 
           </MDBCardText>
         </MDBCardBody>
       </MDBCard>
@@ -224,38 +234,8 @@ export default function TopDrafted() {
           position='top'
         />
         <MDBCardBody>
-          <MDBCardTitle>Gavin Floyd</MDBCardTitle>
-          <MDBCardText> 1st Round- Philadelphia Phillies</MDBCardText>
-        </MDBCardBody>
-      </MDBCard>
-    </MDBCol>
-  </MDBRow>
-  <MDBRow>
-    <MDBCol className='flex-col p-2'>
-       <MDBCard className='h-100 top-drafted-card'>
-        <MDBCardImage
-          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-          alt='...'
-          position='top'
-        />
-        <MDBCardBody>
-          <MDBCardTitle>Brett Cecil</MDBCardTitle>
-          <MDBCardText>
-            1st Round- Toronto Blue Jays
-          </MDBCardText>
-        </MDBCardBody>
-      </MDBCard>
-    </MDBCol>
-    <MDBCol className='flex-col p-2'>
-       <MDBCard className='h-100 top-drafted-card'>
-        <MDBCardImage
-          src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-          alt='...'
-          position='top'
-        />
-        <MDBCardBody>
-          <MDBCardTitle>Gavin Floyd</MDBCardTitle>
-          <MDBCardText> 1st Round- Philadelphia Phillies</MDBCardText>
+          <MDBCardTitle>Guy Smith</MDBCardTitle>
+          <MDBCardText> 11th Round- Owner "5-Tool", 26yr Tenure Coach</MDBCardText>
         </MDBCardBody>
       </MDBCard>
     </MDBCol>
