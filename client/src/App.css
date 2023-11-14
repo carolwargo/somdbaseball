@@ -1,0 +1,18 @@
+.top-drafted-card {
+  border: 1px solid black; /* Add a thin black border around the card */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* DraftedTable.css */
+
+/* Style to shrink the table */
+.drafted-table {
+  font-size: 0.7rem; /* Adjust the font size as needed */
+}
+
+/* Style to adjust line height */
+.drafted-table td,
+.drafted-table th {
+  line-height: .9; /* Adjust the line height as needed */
+  padding: 0.5rem;
+}
