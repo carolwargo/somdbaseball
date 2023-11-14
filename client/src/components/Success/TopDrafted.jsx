@@ -9,6 +9,9 @@ import {
   MDBCol
 } from 'mdb-react-ui-kit';
 
+import Gavin from '../../assets/Gavin.jpg'
+import Brett from '../../assets/Brett.jpg'
+
 export default function TopDrafted() {
   return (
     <div className='top-drafted p-4'>
@@ -17,8 +20,8 @@ export default function TopDrafted() {
     <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
         <MDBCardImage
-          src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-          alt='...'
+          src={Brett}
+          alt='brett-cecil'
           position='top'
         />
         <MDBCardBody>
@@ -32,8 +35,8 @@ export default function TopDrafted() {
     <MDBCol className='flex-col p-2'>
        <MDBCard className='h-100 top-drafted-card'>
         <MDBCardImage
-          src='https://mdbootstrap.com/img/new/standard/city/042.webp'
-          alt='...'
+         src={Gavin} 
+         alt='gavin-floyd'
           position='top'
         />
         <MDBCardBody>
