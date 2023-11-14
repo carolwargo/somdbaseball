@@ -11,6 +11,7 @@ import {
 
 import Gavin from '../../assets/Gavin.jpg'
 import Brett from '../../assets/Brett.jpg'
+import JohnM from '../../assets/JohnM.jpg'
 
 export default function TopDrafted() {
   return (
@@ -50,12 +51,12 @@ export default function TopDrafted() {
       <MDBCol className='flex-col p-2'>
          <MDBCard className='h-100 top-drafted-card'>
           <MDBCardImage
-            src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-            alt='...'
+            src={JohnM} 
+            alt='john-mccurdy'
             position='top'
           />
           <MDBCardBody>
-            <MDBCardTitle>Matt Coenen</MDBCardTitle>
+            <MDBCardTitle>John McCurdy</MDBCardTitle>
             <MDBCardText>
             2nd Round- Detroit Tigers
             </MDBCardText>
